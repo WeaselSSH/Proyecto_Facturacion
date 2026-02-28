@@ -17,7 +17,7 @@
    <widget class="QLabel" name="lblMenuPrincipal">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>320</x>
       <y>10</y>
       <width>231</width>
       <height>41</height>
@@ -94,7 +94,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
