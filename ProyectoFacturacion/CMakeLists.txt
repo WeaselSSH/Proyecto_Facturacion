@@ -13,6 +13,11 @@ qt_add_executable(ProyectoFacturacion
     menuprincipal.ui
     registroui.h registroui.cpp registroui.ui
     usuario.h usuario.cpp
+    cliente.h cliente.cpp
+    Tipos.h
+    Tipos.cpp
+    producto.h producto.cpp
+
 )
 
 target_link_libraries(ProyectoFacturacion
