@@ -6,19 +6,28 @@
 class Producto
 {
 public:
-    //CONSTRUCTOR
     Producto(const QString& codigo, const QString& descripcion);
 
-    //GETTERS
     const QString& getCodigo() const;
     const QString& getDescripcion() const;
+    double getPrecio() const;
+    int getStock() const;
+    double getCosto() const;
+    bool getActivo() const;
 
-    //SETTERS
     void setDescripcion(const QString& descripcion);
+    void setPrecio(double precio);
+    void setStock(int stock);
+    void setCosto(double costo);
+    void setActivo(bool activo);
 
 private:
     QString mCodigo;
     QString mDescripcion;
+    double mPrecio;
+    int mStock;
+    double mCosto;
+    bool mActivo;
 };
 
-#endif // PRODUCTO_H
+#endif
