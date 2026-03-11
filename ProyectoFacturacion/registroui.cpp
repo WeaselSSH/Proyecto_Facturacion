@@ -12,3 +12,9 @@ RegistroUI::~RegistroUI()
 {
     delete ui;
 }
+
+void RegistroUI::on_txtUsuario_cursorPositionChanged(int arg1, int arg2)
+{
+
+}
+

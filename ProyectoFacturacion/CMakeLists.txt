@@ -22,6 +22,9 @@ qt_add_executable(ProyectoFacturacion
     manejousuario.h manejousuario.cpp
     productorepo.h productorepo.cpp
     clienterepo.h clienterepo.cpp
+    frmgestionarproductos.h frmgestionarproductos.cpp frmgestionarproductos.ui
+    frmclientes.h frmclientes.cpp frmclientes.ui
+
 )
 
 target_link_libraries(ProyectoFacturacion

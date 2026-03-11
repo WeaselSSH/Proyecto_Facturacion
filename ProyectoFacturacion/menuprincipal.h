@@ -17,6 +17,9 @@ public:
     MenuPrincipal(QWidget *parent = nullptr);
     ~MenuPrincipal();
 
+private slots:
+    void on_btnIniciarSesion_clicked();
+
 private:
     Ui::MenuPrincipal *ui;
 };

@@ -12,3 +12,9 @@ MenuPrincipal::~MenuPrincipal()
 {
     delete ui;
 }
+
+void MenuPrincipal::on_btnIniciarSesion_clicked()
+{
+
+}
+
